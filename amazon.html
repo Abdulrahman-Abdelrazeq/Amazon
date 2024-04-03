@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="icon" href="images/Amazon_icon.svg.png">
+</head>
+<body style="background-color: #e3e6e6;">
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark d-flex align-items-center gap-2 p-2">
+            <a class="" href="home.html"><img width="80" src="images/amazon-logo-preview.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
+                <img src="images/white-menu-icon-12.jpg" style="width: 40px;" alt="">
+            </button>
+            <div class="collapse navbar-collapse w-100" id="navbarToggleExternalContent">
+                <ul class="navbar-nav navbar-expand-md d-flex align-items-md-center justify-content-evenly w-100 gap-3">
+                    <li class="nav-item">
+                        <button class="btn btn-dark dropdown-toggle d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#mod">
+                            <img width="20" src="images/orange-location-icon-png-18.png" alt="">
+                            <small class="text-secondary lh-1" style="width: 70px;">
+                                Deliver to
+                                <small class="text-light fw-bold d-block">Egypt</small>
+                            </small>
+                        </button>
+                        <div class="modal fade" id="mod">
+                            <div class="modal-dialog" style="width: 350px; margin-top: 100px;">
+                              <div class="modal-content">
+                                <div class="modal-header" style="background-color: #F0F2F2;">
+                                  <h5 class="modal-title">Choose your location</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <p><small>Delivery options and delivery speeds may vary for different locations</small></p>
+                                  <div class="text-center mb-4"><button type="button" class="btn btn-warning w-100 py-1"><a href="" class="link-decoration-none text-dark px-4">Sign in to see your addresses</a></button></div>
+                                  <p class="middle-line text-center"><small class="position-relative bg-white px-1" style="z-index: 3;">or enter a US zip code</small></p>
+                                  <form action="">
+                                    <div class="d-flex gap-3 my-4">
+                                        <input class="form-control" type="text" name="" id="">
+                                        <button class="btn btn-outline-dark px-4">Apply</button>
+                                    </div>
+                                    <p class="middle-line text-center"><small class="position-relative bg-white px-1" style="z-index: 3;">or</small></p>
+                                    <select class="form-select w-100 my-4">
+                                        <option value="Egypt" selected>Egypt</option>
+                                        <option value="America">America</option>
+                                        <option value="France">France</option>
+                                        <option value="Rusia">Rusia</option>
+                                    </select>
+                                    <div class="text-end"><button class="btn btn-warning px-2"><small>Done</small></button></div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="search-input nav-item input-group dropdown w-25">
+                        <button class="btn btn-secondary dropdown-toggle py-1 px-1" data-bs-toggle="dropdown">All</button>
+                        <ul class="dropdown-menu position-absolute">
+                            <li><a href="#" class="dropdown-item">All Departments</a></li>
+                            <li><a href="#" class="dropdown-item">Arts & Carfts</a></li>
+                            <li><a href="#" class="dropdown-item">Automotive</a></li>
+                            <li><a href="#" class="dropdown-item">Baby</a></li>
+                            <li><a href="#" class="dropdown-item">Books</a></li>
+                            <li><a href="#" class="dropdown-item">Boys' Fashion</a></li>
+                            <li><a href="#" class="dropdown-item">Computers</a></li>
+                            <li><a href="#" class="dropdown-item">Deals</a></li>
+                            <li><a href="#" class="dropdown-item">Software</a></li>
+                            <li><a href="#" class="dropdown-item">Luggage</a></li>
+                            <li><a href="#" class="dropdown-item">Prime Video</a></li>
+                            <li><a href="#" class="dropdown-item">Electronics</a></li>
+                            <li><a href="#" class="dropdown-item">Home & Kitchen</a></li>
+                            <li><a href="#" class="dropdown-item">Men's Fashion</a></li>
+                            <li><a href="#" class="dropdown-item">Woman's Fashion</a></li>
+                        </ul>
+                        <input class="form-control" type="search" style="padding: 0 5px;" placeholder="Search Amazon">
+                        <button class=" btn btn-warning py-1 px-1"><img src="icons/search.svg" alt=""></button>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                            <img src="images/flag.png" width="15">
+                            <small>En</small>
+                        </button>
+                        <ul class="dropdown-menu px-1 position-absolute">
+                            <small>Choose your language:</small>
+                            <hr>
+                            <div class="form-check">
+                                <input class="form-check-input" checked type="radio" name="option" id="option1" value="1">
+                                <label class="form-check-label" for="option1">English</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="option" id="option2" value="2">
+                                <label class="form-check-label" for="option2">French</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="option" id="option2" value="2">
+                                <label class="form-check-label" for="option2">Portuguese</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="option" id="option2" value="2">
+                                <label class="form-check-label" for="option2">Indian</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="option" id="option2" value="2">
+                                <label class="form-check-label" for="option2">Spanish</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="option" id="option2" value="2">
+                                <label class="form-check-label" for="option2">Arabic</label>
+                            </div>
+                            
+                        </ul>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                            <small class="text-secondary lh-1 d-inline-block">
+                                Hello, sign in
+                                <small class="text-light fw-bold d-block">Account & Lists</small>
+                            </small>
+                        </button>
+                        <ul class="dropdown-menu px-1 position-absolute sign px-2 py-3" style="width: 300px;">
+                            <div class=" text-center">
+                                <button class="btn btn-warning px-4"><a href="login.html" class="text-dark">Sign in</a></button>
+                                <small class="d-block">
+                                    New customer?
+                                    <a href="register.html" class="text-decoration-none text-primary">Start here</a>
+                                </small>
+                            </div>
+                            <div class="border-top mt-2 d-flex">
+                                <div class="border-end pt-2 w-50">
+                                    Your Lists
+                                    <div><a href="">Create a List</a></div>
+                                    <div><a href="">Find a List or Register</a></div>
+                                </div>
+                                <div class="ps-2 pt-2">
+                                    Your Account
+                                    <div><a href="">Account</a></div>
+                                    <div><a href="">Orders</a></div>
+                                    <div><a href="">Watchlist</a></div>
+                                    <div><a href="">Music Library</a></div>
+                                    <div><a href="">Browsing History</a></div>
+                                    <div><a href="">Content & Devices</a></div>
+                                    <div><a href="">Subscribe & Save Items</a></div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item" style="width: 60px;">
+                        <button class="btn btn-dark">
+                            <small class="text-secondary lh-1 d-inline-block" style="width: 60px;">
+                                Returns
+                                <small class="text-light fw-bold d-block">& Orders</small>
+                            </small>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-dark">
+                            <img src="images/cart.png" width="30" alt="">
+                            <small class="text-light">Cart</small>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-md p-1" style="background-color: #232f3e;">
+            <ul class="navbar-nav d-flex .align-items-md-center w-100 gap-0">
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light d-flex align-items-center">
+                        <img src="images/nav.png" width="25" alt="">
+                        <small>All</small>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light"><small>Today's Deals</small></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light"><small>Registry</small></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light"><small>Customer Service</small></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light"><small>Gift Cards</small></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn p-0 px-2 text-light"><small>Sell</small></button>
+                </li>
+                <li class="nav-item text-light ms-2 ms-xl-5 ps-xl-5 mt-4 mt-md-0 w-auto" style="box-sizing: border-box;">
+                    <div class="user-name-email d-md-flex gap-md-2 align-items-center ps-lg-1 ps-xl-3 ms-xl-3 ps-xxl-4 ms-xxl-4">
+                        <h6 class="m-0 ps-lg-1 ms-lg-3 ps-xl-3 ms-xl-3 ps-xxl-4 ms-xxl-4"></h6>
+                        <p class="m-0 ms-lg-3"><small></small></p>
+                        <a href="login.html" class="log-out link-warning ms-lg-5 ps-lg-5"><small></small></a>
+                    </div>
+                </li>
+            </ul>        
+        </nav>
+    </header>
+    <main>
+        <div id="carsl" class="land-slider carousel slide container position-relative z-1" style="height: 350px; margin-bottom: -30px;" data-bs-ride="carousel">
+            <div class="carousel-inner h-100">
+              <div class="carousel-item h-100 active">
+                <img src="images/p-1.webp" class=" w-100 h-100" alt="...">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="images/p-2.jpg" class=" w-100 h-100" alt="...">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="images/p-3.jpg" class=" w-100 h-100" alt="...">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="images/p-4.jpg" class=" w-100 h-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carsl" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carsl" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="overlay position-absolute h-100 left-0 top-0" style="background-image: linear-gradient(to top, #e3e6e6, transparent); width: calc(100% - 24px);"></div>
+        </div>
+
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Gaming accessories</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/1.jpg" class="w-100" alt="">
+                        <p>Headsets</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/2.jpg" class="w-100" alt="">
+                        <p>Keyboards</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/3.jpg" class="w-100" alt="">
+                        <p>Computer mice</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/4.jpg" class="w-100" alt="">
+                        <p>Chairs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Deals in PCs</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/5.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Refresh your space</h5>
+                <div class="images row mt-4 mb-2">
+                    <figure class="col-6">
+                        <img src="images/6.jpg" class="w-100" alt="">
+                        <p>Dining</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/7.jpg" class="w-100" alt="">
+                        <p>Home</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/8.jpg" class="w-100" alt="">
+                        <p>Kitchen</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/9.jpg" class="w-100" alt="">
+                        <p>Health and Beauty</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Toys under $25</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/10.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Free international returns</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/11.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Learn more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Lunar New Year</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/12.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>New year, now you</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/13.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Gaming merchandise</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/37.jpg" class="w-100" alt="">
+                        <p>Apparel</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/38.jpg" class="w-100" alt="">
+                        <p>Hats</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/39.jpg" class="w-100" alt="">
+                        <p>Action Figures</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/40.jpg" class="w-100" alt="">
+                        <p>Mugs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+        </div>
+
+        <div class="container p-3 bg-white my-3 carousel slide" data-bs-ride="carousel" id="slide">
+            <h5>Best Sellers in Beauty & Personal Care</h5>
+            <div class="gallary d-flex mt-3 overflow-scroll">
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/14.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/15.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/16.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/17.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/18.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/19.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/20.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/21.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/22.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/23.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/24.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/25.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/26.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/27.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/28.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/29.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/30.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/31.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/32.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/33.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/34.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/35.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/36.jpg" alt=""></span>
+                </div>
+            </div>
+            <button class="gallary-prev my-auto carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="gallary-next my-auto carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Shop activity trackers and smartwatches</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/41.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Warm & welcoming decor</h5>
+                <div class="images row mt-4" style="margin-bottom: 32px;">
+                    <figure class="col-6">
+                        <img src="images/42.jpg" class="w-100" alt="">
+                        <p>Wreaths & garlands</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/43.jpg" class="w-100" alt="">
+                        <p>Outdoor decor</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/44.jpg" class="w-100" alt="">
+                        <p>Pillows & Throws</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/45.jpg" class="w-100" alt="">
+                        <p>Wall art & Mirrors</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Show more fall finds</a>
+            </div>
+            <div class="bg-white p-3 position-relative" style="width: 300px;">
+                <h5>Player's paradise starts here</h5>
+                <div class="images mt-4">
+                    <img src="images/46.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary position-absolute" style="bottom: 25px;">Shop video games</a>
+            </div>
+            <div class="bg-white p-3 position-relative" style="width: 300px;">
+                <h5>Gaming accessories</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/1.jpg" class="w-100" alt="">
+                        <p>Headsets</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/2.jpg" class="w-100" alt="">
+                        <p>Keyboards</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/3.jpg" class="w-100" alt="">
+                        <p>Computer mice</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/4.jpg" class="w-100" alt="">
+                        <p>Chairs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary position-absolute" style="bottom: 25px;">See more</a>
+            </div>
+        </div>
+
+        <div class="container p-3 bg-white my-3 carousel slide" data-bs-ride="carousel" id="slide">
+            <h5>Best Sellers in Clothing, Shoes & Jewelry</h5>
+            <div class="gallary d-flex mt-3 overflow-scroll">
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/1.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/2.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/3.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/4.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/5.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/6.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/7.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/8.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/9.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/10.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/11.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/12.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/13.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/14.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/15.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/16.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/17.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/18.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/19.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/20.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/21.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/22.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/23.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/24.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/25.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/26.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/27.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/28.jpg" alt=""></span>
+                </div>
+            </div>
+            <button class="gallary-prev my-auto carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="gallary-next my-auto carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>A whole new way to work</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/47.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop personal computers</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Upgrade your office furniture</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/48.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Personal Care under $25</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/49.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Deals on shoes</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/50.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Refresh your space</h5>
+                <div class="images row mt-4 mb-2">
+                    <figure class="col-6">
+                        <img src="images/6.jpg" class="w-100" alt="">
+                        <p>Dining</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/7.jpg" class="w-100" alt="">
+                        <p>Home</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/8.jpg" class="w-100" alt="">
+                        <p>Kitchen</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/9.jpg" class="w-100" alt="">
+                        <p>Health and Beauty</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Free international returns</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/11.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Learn more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Lunar New Year</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/12.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>New year, now you</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/13.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+        </div>
+
+        <div class="container p-3 bg-white my-3 carousel slide" data-bs-ride="carousel" id="slide">
+            <h5>Best Sellers in Clothing, Shoes & Jewelry</h5>
+            <div class="gallary d-flex mt-3 overflow-scroll">
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/1.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/2.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/3.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/81+D8FkHLXL._AC_SY200_.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/5.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/6.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/7.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/8.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/9.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/10.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/11.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/12.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/13.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/14.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/15.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/16.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/17.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/18.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/19.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/20.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/21.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/22.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/23.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/24.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/Sports/25.jpg" alt=""></span>
+                </div>
+            </div>
+            <button class="gallary-prev my-auto carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="gallary-next my-auto carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Gaming accessories</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/1.jpg" class="w-100" alt="">
+                        <p>Headsets</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/2.jpg" class="w-100" alt="">
+                        <p>Keyboards</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/3.jpg" class="w-100" alt="">
+                        <p>Computer mice</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/4.jpg" class="w-100" alt="">
+                        <p>Chairs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Deals in PCs</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/5.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Refresh your space</h5>
+                <div class="images row mt-4 mb-2">
+                    <figure class="col-6">
+                        <img src="images/6.jpg" class="w-100" alt="">
+                        <p>Dining</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/7.jpg" class="w-100" alt="">
+                        <p>Home</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/8.jpg" class="w-100" alt="">
+                        <p>Kitchen</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/9.jpg" class="w-100" alt="">
+                        <p>Health and Beauty</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Toys under $25</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/10.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Free international returns</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/11.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Learn more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Lunar New Year</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/12.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>New year, now you</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/13.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Gaming merchandise</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/37.jpg" class="w-100" alt="">
+                        <p>Apparel</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/38.jpg" class="w-100" alt="">
+                        <p>Hats</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/39.jpg" class="w-100" alt="">
+                        <p>Action Figures</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/40.jpg" class="w-100" alt="">
+                        <p>Mugs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+        </div>
+
+        <div class="container p-3 bg-white my-3 carousel slide" data-bs-ride="carousel" id="slide">
+            <h5>Best Sellers in Beauty & Personal Care</h5>
+            <div class="gallary d-flex mt-3 overflow-scroll">
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/14.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/15.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/16.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/17.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/18.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/19.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/20.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/21.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/22.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/23.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/24.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/25.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/26.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/27.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/28.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/29.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/30.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/31.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/32.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/33.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/34.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/35.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/36.jpg" alt=""></span>
+                </div>
+            </div>
+            <button class="gallary-prev my-auto carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="gallary-next my-auto carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Shop activity trackers and smartwatches</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/41.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Warm & welcoming decor</h5>
+                <div class="images row mt-4" style="margin-bottom: 32px;">
+                    <figure class="col-6">
+                        <img src="images/42.jpg" class="w-100" alt="">
+                        <p>Wreaths & garlands</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/43.jpg" class="w-100" alt="">
+                        <p>Outdoor decor</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/44.jpg" class="w-100" alt="">
+                        <p>Pillows & Throws</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/45.jpg" class="w-100" alt="">
+                        <p>Wall art & Mirrors</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Show more fall finds</a>
+            </div>
+            <div class="bg-white p-3 position-relative" style="width: 300px;">
+                <h5>Player's paradise starts here</h5>
+                <div class="images mt-4">
+                    <img src="images/46.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary position-absolute" style="bottom: 25px;">Shop video games</a>
+            </div>
+            <div class="bg-white p-3 position-relative" style="width: 300px;">
+                <h5>Gaming accessories</h5>
+                <div class="images row mt-4">
+                    <figure class="col-6">
+                        <img src="images/1.jpg" class="w-100" alt="">
+                        <p>Headsets</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/2.jpg" class="w-100" alt="">
+                        <p>Keyboards</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/3.jpg" class="w-100" alt="">
+                        <p>Computer mice</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/4.jpg" class="w-100" alt="">
+                        <p>Chairs</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary position-absolute" style="bottom: 25px;">See more</a>
+            </div>
+        </div>
+        
+        <div class="container p-3 bg-white my-3 carousel slide" data-bs-ride="carousel" id="slide">
+            <h5>Best Sellers in Clothing, Shoes & Jewelry</h5>
+            <div class="gallary d-flex mt-3 overflow-scroll">
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/1.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/2.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/3.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/4.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/5.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/6.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/7.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/8.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/9.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/10.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/11.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/12.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/13.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/14.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/15.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/16.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/17.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/18.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/19.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/20.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/21.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/22.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/23.jpg" alt=""></span>
+                </div>
+                <div class="row w-100">
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/24.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/25.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/26.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/27.jpg" alt=""></span>
+                    <span class="col-2"><img class="h-100 px-2" src="images/clothing/28.jpg" alt=""></span>
+                </div>
+            </div>
+            <button class="gallary-prev my-auto carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="gallary-next my-auto carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div class="product container d-flex justify-content-evenly flex-wrap gap-3 z-2 position-relative">
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>A whole new way to work</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/47.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop personal computers</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Upgrade your office furniture</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/48.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Personal Care under $25</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/49.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Deals on shoes</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/50.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Refresh your space</h5>
+                <div class="images row mt-4 mb-2">
+                    <figure class="col-6">
+                        <img src="images/6.jpg" class="w-100" alt="">
+                        <p>Dining</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/7.jpg" class="w-100" alt="">
+                        <p>Home</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/8.jpg" class="w-100" alt="">
+                        <p>Kitchen</p>
+                    </figure>
+                    <figure class="col-6">
+                        <img src="images/9.jpg" class="w-100" alt="">
+                        <p>Health and Beauty</p>
+                    </figure>
+                </div>
+                <a href="" class="text-decoration-none text-secondary">See more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Free international returns</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/11.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Learn more</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>Lunar New Year</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/12.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+            <div class="bg-white p-3" style="width: 300px;">
+                <h5>New year, now you</h5>
+                <div class="images mt-4 mb-5">
+                    <img src="images/13.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-decoration-none text-secondary">Shop now</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-5 border-top bg-dark mt-5">
+        <div class="row m-auto container justify-content-between p-3">
+            <div class="col-5 col-md-2 text-success mt-5">
+                <h5 class="text-light mb-4">Get to Know Us</h5>
+                <a href="" class="text-decoration-none d-block">Careers</a><br>
+                <a href="" class="text-decoration-none d-block">Blog</a><br>
+                <a href="" class="text-decoration-none d-block">About Amazon</a><br>
+                <a href="" class="text-decoration-none d-block">Investor Relations</a><br>
+                <a href="" class="text-decoration-none d-block">Amazon Devices</a><br>
+                <a href="" class="text-decoration-none d-block">Amazon Science</a>
+            </div>
+            <div class="col-5 col-md-3 text-secondary mt-5">
+                <h5 class="text-light mb-4">Make Money with Us</h5>
+                <a href="" class="text-decoration-none d-block">Sell products on Amazon</a><br>
+                <a href="" class="text-decoration-none d-block">Sell on Amazon Business</a><br>
+                <a href="" class="text-decoration-none d-block">Sell apps on Amazon</a><br>
+                <a href="" class="text-decoration-none d-block">Become an Affiliate</a><br>
+                <a href="" class="text-decoration-none d-block">Advertise Your Products</a><br>
+                <a href="" class="text-decoration-none d-block">Self-Publish with Us</a><br>
+                <a href="" class="text-decoration-none d-block">Host an Amazon Hub</a><br>
+                <a href="" class="text-decoration-none d-block">See More Make Money with Us</a>
+            </div>
+            <div class="col-5 col-md-3 text-light mt-5">
+                <h5>Amazon Payment Products</h5><br>
+                <a href="" class="text-decoration-none d-block">Amazon Business Card</a><br>
+                <a href="" class="text-decoration-none d-block">Shop with Points</a><br>
+                <a href="" class="text-decoration-none d-block">Reload Your Balance</a><br>
+                <a href="" class="text-decoration-none d-block">Amazon Currency Converter</a><br>
+            </div>
+            <div class="col-5 col-md-3 text-light mt-5">
+                <h5>Let Us Help You</h5><br>
+                <a href="" class="text-decoration-none d-block">Amazon and COVID-19</a><br>
+                <a href="" class="text-decoration-none d-block">Your Account</a><br>
+                <a href="" class="text-decoration-none d-block">Your Orders</a><br>
+                <a href="" class="text-decoration-none d-block">Shipping Rates & Policies</a><br>
+                <a href="" class="text-decoration-none d-block">Returns & Replacements</a>
+                <a href="" class="text-decoration-none d-block">Manage Your Content and Devices</a>
+                <a href="" class="text-decoration-none d-block">Amazon Assistant</a>
+                <a href="" class="text-decoration-none d-block">Help</a>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center mt-5 pt-5 border-top border-secondary">
+            <img src="images/amazon-logo-preview.png" width="80" height="25" alt="">
+            <div style="width: 360px;">
+                <a class="text-decoration-none mx-1" href="">Conditions of Use</a>
+                <a class="text-decoration-none mx-1" href="">Privacy Notice</a>
+                <a class="text-decoration-none mx-1" href="">Your Ads Privacy Choices</a>
+                <p class="text-secondary">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        nav button {
+            padding: 5px 3px !important;
+        }
+        @media (max-width: 767px) {
+            .search-input {
+                width: 100% !important;
+            }
+        }
+        @media (max-width: 767px) {
+            nav > ul > li:nth-child(2) {
+                width: 75% !important;
+            }
+        }
+        .sign a,
+        .sign small,
+        .modal a {
+            font-size: 11px;
+            text-decoration: none;
+        }
+        .sign a:hover,
+        .modal a:hover,
+        .product > div > a:hover {
+            text-decoration: underline !important;
+            color: red !important;
+        }
+        .middle-line {
+            position: relative;
+        }
+        .middle-line::after {
+            content: "";
+            border-top: 1px solid #BBBFBF;
+            display: block;
+            height: 1px;
+            margin-top: 2px;
+            position: absolute;
+            top: 50%;
+            z-index: 0;
+            width: 100%;
+        }
+        @media (max-width: 576px) {
+            .land-slider {
+                height: 250px !important;
+            }
+        }
+        .product p {
+            font-size: 13px;
+        }
+        .gallary::-webkit-scrollbar {
+            display: none;
+        }
+        .gallary .row {
+            flex: none;
+        }
+        .gallary .row span {
+            height: 100px;
+        }
+        @media (max-width: 767px) {
+            .gallary .row span {
+                height: 50px;
+            }
+        }
+        .gallary .row span img:hover,
+        .product img:hover {
+            transform: scale(1.1,1.1);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .gallary-prev,
+        .gallary-next {
+            background-color: black;
+            opacity: .1;
+            width: 35px;
+            height: 60px;
+        }
+        footer a {
+            color: #c9c9c9;
+            font-size: 13px;
+        }
+        footer a:hover {
+            color: #c9c9c9;
+            text-decoration: underline !important;
+        }
+    </style>
+    <script src="bootstrap-5.0.2-dist/js/jquery-3.7.1.min.js"></script>
+    <script>
+        let gallary = document.querySelectorAll(".carousel .gallary")
+        let gallaryPrev = document.querySelectorAll(".carousel .gallary-prev")
+        let gallaryNext = document.querySelectorAll(".carousel .gallary-next")
+        for(let i =0; i < 3; i++) {
+            gallaryNext[i].onclick = function () {
+                gallary[i].style.scrollBehavior = "smooth"
+                if(window.innerWidth >= 768) {
+                    gallary[i].scrollLeft += 930
+                }else {
+                    gallary[i].scrollLeft += 365
+                }
+            }
+            gallaryPrev[i].onclick = function () {
+                gallary[i].style.scrollBehavior = "smooth"
+                if(window.innerWidth >= 768) {
+                    gallary[i].scrollLeft -= 930
+                } else {
+                    gallary[i].scrollLeft -= 365
+                }
+            }
+        }
+    </script>
+    <script src="login.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

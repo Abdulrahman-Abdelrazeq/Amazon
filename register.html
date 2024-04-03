@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="icon" href="images/Amazon_icon.svg.png">
+</head>
+<body>
+    <div class="mt-4">
+        <div class="text-center mb-4">
+          <a href="amazon.html"><img src="images/Amazon_logo.svg.png" width="100px"></a>
+        </div>
+        <div class="card" style="width: 300px; margin: auto;">
+            <div class="card-body">
+              <h5 class="fs-4">Create account</h5>
+              <form action="congratulation.html">
+                <div class="mb-3">
+                  <label for="name" class="fw-bold">Your Name</label>
+                  <input type="text" class="nameRegister form-control py-0" id="name">
+                  <p class="d-none text-danger empty-name">! Enter your name</p>
+                  <p class="d-none text-danger miss-name">! Your name must be two words long and the word must be three letters or more</p>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="fw-bold">Your Email</label>
+                  <input type="email" class="emailRegister form-control py-0" id="email">
+                  <p class="d-none text-danger empty-email">! Enter your email</p>
+                  <p class="d-none text-danger miss-email">! Wrong or Invalid email address. Please correct and try again.</p>
+                  <p class="d-none text-danger already-registered">! This email is already registered.</p>
+                </div>
+                <div class="mb-3">
+                  <label for="password1" class="fw-bold">Password</label>
+                  <input type="password" class="passwordRegister form-control py-0" id="password1">
+                  <p class="d-none text-danger miss-password">! Minimum 8 characters required</p>
+                </div>
+                <div class="mb-3">
+                  <label for="password2" class="fw-bold">Re-enter Password</label>
+                  <input type="password" class="passwordRegister2 form-control py-0" id="password2">
+                  <p class="d-none text-danger not-mutch">! Passwords must match</p>
+                </div>
+                <button type="submit" class="btn btn-warning w-100 py-1 mb-2">Verify email</button>
+              </form>
+              <p>By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+              <div class="py-3 my-3 border-bottom border-top">
+                <p class="my-0 fw-bold">Buying for work?</p>
+                <a href="#">Create a free business account</a>
+              </div>
+              <p>Already have an account? <a href="login.html">Sign in</a></p>
+            </div>
+        </div>
+        <div class="text-center mx-auto mt-4 pt-3 border-top" style="width: 360px;">
+            <a class="text-decoration-none mx-1" href="">Conditions of Use</a>
+            <a class="text-decoration-none mx-1" href="">Privacy Notice</a>
+            <a class="text-decoration-none mx-1" href="">Your Ads Privacy Choices</a>
+            <p class="text-secondary">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </div>
+
+    <style>
+        label,
+        p,
+        a {
+            font-size: 11px;
+        }
+        .show {
+            display: block !important;
+        }
+    </style>
+    <script src="bootstrap-5.0.2-dist/js/jquery-3.7.1.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+    </script>
+    <script src="register.js"></script>
+</body>
+</html>
